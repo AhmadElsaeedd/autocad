@@ -1,6 +1,7 @@
 from pyautocad import Autocad, APoint
 
 acad = Autocad(create_if_not_exists=True)
+acad.prompt("Drawing a square pile cap and piles inside it.\n")
 
 # Pile Cap Dimensions
 pile_cap_length = 2700
