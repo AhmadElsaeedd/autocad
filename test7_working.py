@@ -1,6 +1,7 @@
 from pyautocad import Autocad, APoint
 
-acad = Autocad()
+acad = Autocad(create_if_not_exists=True)
+#ToDo: a way to automate opening a new document for each code run (have to fork library and edit it myself)
 
 # Drawing the square pile cap by connecting lines
 cap_points = [APoint(0, 0), APoint(2700, 0), APoint(2700, 2700), APoint(0, 2700), APoint(0, 0)]
