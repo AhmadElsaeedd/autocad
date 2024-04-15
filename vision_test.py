@@ -19,12 +19,16 @@ response = client.chat.completions.create(
             "content": [
                 {
                     "type": "image_url",
-                    "image_url": "https://res.cloudinary.com/dp9agi6tu/image/upload/v1713179522/dwyzmix0rz56ctdjrh3v.png",
+                    "image_url": "https://res.cloudinary.com/dp9agi6tu/image/upload/v1713182351/qumugfhsq3jfrojhhfja.png",
                 },
                 {
                     "type": "text",
-                    "text": "I am designing a pile cap that has a pentagonal shape. It has an upper short side of 800 mm and two sides shooting from each end point of the 800 mm side, measuring 1250mm each. Then from each of these sides shoots a 750 mm side amd the pentagon is then closed by it's last and longest side measuring 2050 mm. Then, we are drawing three circular piles for this pile cap that have a diameter of 500 mm each. In the center and middle of the pentagonal  pile cap, I have 3 piles that are spaced at 1250 mm from each other (center to center spacing). Attached is a sketch of the drawing of the pile cap that shows the center to center spacing between the three circular piles in the pentagonal pile cap. The center to center spacing is shown in the form of an equilateral 1250 mm dotted triangle that has a black rectangular shape at it's middle referring to the column to which this pile cap is drawn. Refer to the attached sketch of what i am describing and image and the above to produce instructions of how to produce an autocad drawing of what is in the chat and the described text exactly. You can ignore the rectangular shape in the center of the triangle since i don't have dimensions for that.",
+                    "text": "I am designing a pile cap that has a hexagonal shape. It has an upper short side of 800 mm and two sides shooting from each end point of the 800 mm side, measuring 1250mm each. Then from each of these sides shoots a 750 mm side amd the hexagon is then closed by it's last and longest side measuring 2050 mm. Then, we are drawing three circular piles for this pile cap that have a diameter of 500 mm each. In the center and middle of the hexagonal  pile cap, I have 3 piles that are spaced at 1250 mm from each other (center to center spacing). Attached is a sketch of the drawing of the pile cap that shows the center to center spacing between two of the three circular piles in the hexagonal pile cap. Refer to the attached sketch of what i am describing and image and the above to produce instructions of how to produce an autocad drawing of what is in the chat and the described text exactly.",
                 },
+                # {
+                #     "type": "text",
+                #     "text": "Describe to me every detail you see in the image attached.",
+                # },
             ],
         }
   ],
