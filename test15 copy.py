@@ -11,13 +11,13 @@ acad.model.AddLine(APoint(0, 0), APoint(800, 0))
 p1 = APoint(800, 0)
 print("P1 x is: ", p1.x)
 print("P1 x is: ", p1.y)
-p2 = APoint(800 + (1250 * math.cos(math.radians(120))), 1250 * math.sin(math.radians(120)))
+p2 = APoint(800 + (1250 * math.sin(math.radians(30))), -1250 * math.cos(math.radians(30)))
 acad.model.AddLine(p1, p2)
 
 # Lower right side
 print(p2.x)
 print(p2.y)
-p3 = APoint(p2.x + (750 * math.cos(math.radians(180))), p2.y + (750 * math.sin(math.radians(180))))
+p3 = APoint(p2.x+(750 * math.sin(math.radians(180))), p2.y + (-750 * math.sin(math.radians(90))))
 acad.model.AddLine(p2, p3)
 
 # Bottom horizontal line
@@ -25,7 +25,7 @@ p4 = APoint(p3.x - 2050, p3.y)
 acad.model.AddLine(p3, p4)
 
 # Lower left side
-p5 = APoint(p4.x + (750 * math.cos(math.radians(240))), p4.y + (750 * math.sin(math.radians(240))))
+p5 = APoint(p4.x + (750 * math.cos(math.radians(90))), p4.y + (750 * math.sin(math.radians(90))))
 acad.model.AddLine(p4, p5)
 
 # Upper left side to close the hexagon
