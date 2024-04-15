@@ -10,7 +10,7 @@ def encode_image_to_base64(image_path):
 image_path = 'example.png'
 base64_image = encode_image_to_base64(image_path)
 
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="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")
 
 response = client.chat.completions.create(
   model="gpt-4-1106-vision-preview",
@@ -24,7 +24,7 @@ response = client.chat.completions.create(
             "content": [
                 {
                     "type": "image_url",
-                    "image_url": "https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/42965434/original/68c484dceb646f96647b0e9258401c79c7513609/do-civil-and-mechanical-drawings.jpg",
+                    "image_url": "https://res.cloudinary.com/dp9agi6tu/image/upload/v1713179522/dwyzmix0rz56ctdjrh3v.png",
                 },
             ],
         }
